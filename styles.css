@@ -1,16 +1,73 @@
-.boxthree{
-        width:350;
-        height:150px;
-        margin:10px;
-        padding:25px;
-        border:5px solid black;
-        background:
-            linear-gradient(
-                105deg,
-                rgb(200, 0, 0) 39%,
-                rgb(0, 0, 0) 96%
-            ) center center / 400px 200px no-repeat,
-            url(Rxttz.png) center no-repeat,
-            rgb(114, 0, 8);
+
+body {
+    background: linear-gradient(#800000, #9c4b0c);
+}
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        margin: 0;
+       
     }
+    
+    .title-text {
+        font-size: 4rem;
+        transform: rotate(-22.5deg);
+        font-weight: bold;
+        background: linear-gradient(to right, black, rgb(30, 255, 0), black);
+        background-size: 300% 100%;
+        -webkit-background-clip: text; 
+        color: transparent;
+        animation: gradientAnimation 6s linear infinite;
+    }
+    
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 0% 0%; 
+        }
+        50% {
+            background-position: 100% 0%; 
+        }
+        100% {
+            background-position: 200% 0%;
+        }
+    }
+    
+    
+    
+    
+        
+    .rxttz {
+        height: 30vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .icons {
+        height: 100px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .boxone {
+        height: 100px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .vierfy {
+        height: 5vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
     
