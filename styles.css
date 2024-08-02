@@ -70,6 +70,7 @@ body {
             position: relative;
             z-index: 1; /* Ensure these elements are above the canvas */
         }        
+        
         canvas {
             display: block;
             position: absolute;
